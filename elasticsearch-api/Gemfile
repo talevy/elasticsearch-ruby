@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'faraday', :git => 'https://github.com/talevy/faraday.git', :branch => 'no_proxy'
+
 # Specify your gem's dependencies in elasticsearch-api.gemspec
 gemspec
 

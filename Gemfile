@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem "bundler", "> 1"
 gem "rake"
 
+gem 'faraday', :git => 'https://github.com/talevy/faraday.git', :branch => 'no_proxy'
+
 gem 'elasticsearch-api',        :path => File.expand_path("../elasticsearch-api", __FILE__),        :require => false
 gem 'elasticsearch-transport',  :path => File.expand_path("../elasticsearch-transport", __FILE__),  :require => false
 gem 'elasticsearch-extensions', :path => File.expand_path("../elasticsearch-extensions", __FILE__), :require => false
